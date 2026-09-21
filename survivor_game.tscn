@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bvp0oy6d34s7n"]
+
+[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://player.tscn" id="1_wkcnj"]
+[ext_resource type="PackedScene" uid="uid://exd8jplrjwad" path="res://mod.tscn" id="2_8id3q"]
+
+[node name="Game" type="Node2D" unique_id=2108166864]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1460106330]
+layer = -100
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1408899292]
+offset_left = -3.0
+offset_top = 2.0
+offset_right = 2021.0
+offset_bottom = 1110.0
+
+[node name="Player" parent="." unique_id=858639499 instance=ExtResource("1_wkcnj")]
+position = Vector2(353, 210)
+
+[node name="Mod" parent="." unique_id=1919793973 instance=ExtResource("2_8id3q")]
+position = Vector2(507, 520)

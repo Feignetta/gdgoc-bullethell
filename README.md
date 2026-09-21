@@ -1,0 +1,2 @@
+# gdgoc-bullethell
+ yes
